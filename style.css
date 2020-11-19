@@ -1,0 +1,39 @@
+.container{
+    position: relative;
+}
+.main{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.adNewRow{
+    color: white;
+    padding: 10px;
+    background-color: #7b8a8b;
+    border: none;
+    border-radius: 4%;
+    cursor: pointer;
+}
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th{
+    color: #fff;
+    background-color: #343a40;
+}
+th,td{
+    padding: 0.75rem;
+    width: 150px;
+    text-align: left;
+    border: 1px solid #bfbfc2;
+}
+i{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+input{
+    padding: 8px;
+    border-radius: 5px;
+}
